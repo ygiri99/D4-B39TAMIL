@@ -1,0 +1,17 @@
+{
+    "Name": "P.Yadhavagiri",
+    "Age": 42,
+    "DOB": "25-10-1979",
+    "Bio": {
+      "Height": 158,
+      "Weight": 65
+    },
+    "Qualification": "B.Sc,Math",
+    "Skills": ["JavaScript", "c", "Automobile"],
+    "Habits": ["Reading", "Yoga"],
+    "Projects": [
+      { "Name": "Paar shop", "lang": ["c", "Js"] },
+      { "Name": "Esai", "lang": ["c++", "Js"] },
+      { "Name": "Angadi", "lang": ["Java", "Js"] }
+    ]
+  }
