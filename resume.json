@@ -1,7 +1,7 @@
 {
     "Name": "P.Yadhavagiri",
     "Age": 42,
-    "DOB": "25-10-1979",
+    "DOB": "dd-mm-yyyy",
     "Bio": {
       "Height": 158,
       "Weight": 65
