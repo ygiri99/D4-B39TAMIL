@@ -1,8 +1,12 @@
 var obj1 = {Name : "Anand",age : 30};
-var obj2 = {Name : "Balaji",age : 32};
-var obj3 = {Name : "Anand",age : 30};
-//var object = [ obj1,obj2];
-for(var key in obj1,obj2,obj3){
-    obj1[key]===obj2[key]?console.log("true"):console.log("false");
-    obj1[key]===obj3[key]?console.log("true"):console.log("false");
-}
+var obj2 = {age : 30,Name : "Anand"};
+let iterate ;
+let flag="equal";
+(Object.keys(obj1).length>Object.keys(obj2).length)?iterate=obj1:iterate=obj2;
+for(var key in iterate){
+    if(obj1[key]!==obj2[key]){
+        flag="Not equal";
+        break;
+    }
+   }
+ console.log("Two objects are : ",flag);
