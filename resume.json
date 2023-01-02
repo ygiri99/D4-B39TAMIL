@@ -10,7 +10,7 @@
     "Skills": ["JavaScript", "c", "Automobile"],
     "Habits": ["Reading", "Yoga"],
     "Projects": [
-      { "Name": "Paar shop", "lang": ["c", "Js"] },
+      { "Name": "Chola shop", "lang": ["c", "Js"] },
       { "Name": "Esai", "lang": ["c++", "Js"] },
       { "Name": "Angadi", "lang": ["Java", "Js"] }
     ]
